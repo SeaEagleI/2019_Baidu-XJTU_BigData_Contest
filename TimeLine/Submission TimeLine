@@ -1,0 +1,27 @@
+TimeLine				Top Submit Acc				Top Local Validate Acc
+
+[2019-06-21 19:29:43]
+#Single Network
+		MultiModalNet('se_resnext50_32x4d', 'DPN26', 0.5)
+    		best_models/se_resnext50_32x4d_SGD_1_20.pth
+Epoch 20 ==>				66.52%					99.7625%
+
+
+[2019-06-22 12:17:16]
+#Single Network
+    		MultiModalNet('multiscale_se_resnext_HR', 'DPN26', 0.5)
+    		best_models/multiscale_se_resnext_HR_SGD_16.pth
+
+Epoch 16 ==>				66.38%					99.5875%
+
+[2019-06-22 12:31:13]
+#Ensembled Network: 2
+	[Network #1]
+		MultiModalNet('se_resnext50_32x4d', 'DPN26', 0.5)
+	    	best_models/se_resnext50_32x4d_SGD_1_20.pth
+	[Network #2]
+		MultiModalNet('multiscale_se_resnext_HR', 'DPN26', 0.5)
+		best_models/multiscale_se_resnext_HR_SGD_16.pth
+Ensemble ==>				69.42%					--------
+
+......
