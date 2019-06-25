@@ -3,12 +3,12 @@
 ## Descriptions
 A not bad reward for stay-up guys.  
 Full released Code with a Top Submission Accuracy of Over 69.4%.   
-完整代码及权重请见  
+Full Code & Well-trained Weights Zip pls refer to the following link:  
 网盘链接:https://pan.baidu.com/s/1MQXEhe02BhthzrMMeOE7wQ  提取码:j2x0 
 
 ## Manual Guide
 ### Step 1:
-Download "Stay-Up Rewards.zip" and Extract files from the link mentioned above.
+Download "Stay-Up Rewards.zip" and Extract files from the link mentioned above.  
 Install packages including torch,torchvision,tqdm,numpy... in your python3 Env.
 ### Step 2:
 Change the directory to where your extract the zip file.  
